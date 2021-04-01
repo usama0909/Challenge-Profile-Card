@@ -20,9 +20,8 @@ p{
 }
 
 hr{
-    height: 2px;
-    width: 100%;
-
+    border: solid #000 1px ;
+    border-bottom: 0;
 }
 
 .bg-top {
