@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: #19A1AD;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin:10px 0 0 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0 30px 0;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+
+}
+
+.bg-top {
+    height: auto;
+    width: 500px;
+    position: absolute;
+    left: -150px;
+    top: -150px;
+}
+
+.card {
+    background-color: white;
+    height: auto;
+    width: 30%;
+    display: inline-block;
+    margin-top:100px ;
+    border-radius:15px 15px;
+    z-index: 3;
+}
+
+.bg-card{
+    display: block;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile{
+    border-width: 5px;
+    border-color: #fff;
+    border-radius: 50px;
+    margin-top: -50px;
+}
+
+.victor span{
+    font-weight: 300 ;
+    font-size: 18px;
+}
+
+
+.followers{
+    float: left;
+    width: 33%;
+}
+
+.likes{
+    float:left;
+    width:33%;
+}
+
+.photos{
+    float: right;
+    width: 33%;
+}
+
+
+.bg-bottom {
+    height: auto;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
